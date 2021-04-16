@@ -1,0 +1,21 @@
+const Discord = require('discord.js');
+const config = require('../../ayarlar.json')
+exports.run =  async (client, message, args) => {
+  
+}
+exports.conf = { 
+  enabled: ister true ister false Kullanımınıza bağlı
+  guildOnly: ister true ister false Kullanımınıza bağlı
+  aliases: [""],
+  permLevel: 0 (Mainde ki permlevellerine göredir.Bunu kullanmak şart değildir. Komutunuzun içerisinde sınırlandırmak istediğiniz yetkiyi yazarsanız bu satırı siliniz.)
+};
+
+exports.help = {
+  name: 'Komut ismi',
+  description: 'Hakkında kısmı',
+  usage: ''
+};
+
+
+Başka bir yerden aldığınız kodları Lütfen bu şekilde düzenleyiniz.
+Düzenlemezseniz çalışmaz.
